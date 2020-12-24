@@ -1,0 +1,83 @@
+[09-Dec-2020 22:46:09 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 17
+[09-Dec-2020 22:46:09 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 17
+[09-Dec-2020 22:46:09 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 17
+[09-Dec-2020 22:46:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:42 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:42 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:46:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:42 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:46:42 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:42 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:46:42 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\post.php:0
+[09-Dec-2020 22:46:42 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:42 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\post.php:12
+[09-Dec-2020 22:46:42 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:42 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin.php:34
+[09-Dec-2020 22:46:42 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:42 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:42 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:46:42 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:42 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:42 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:46:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:43 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:43 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:46:43 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:46:43 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:46:43 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:43 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:43 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:46:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:43 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:43 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:46:43 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:46:43 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:46:43 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:43 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:43 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:46:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:43 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:43 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:46:43 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:46:43 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:46:43 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:43 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:43 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:46:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:43 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:43 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:46:43 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:46:43 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:46:43 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:43 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:43 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:46:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:46:43 UTC] PHP Stack trace:
+[09-Dec-2020 22:46:43 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:46:43 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:46:43 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:46:43 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:46:43 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:46:43 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:46:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:46:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[09-Dec-2020 22:47:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'flowres_features' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[09-Dec-2020 22:47:10 UTC] PHP Stack trace:
+[09-Dec-2020 22:47:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[09-Dec-2020 22:47:10 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[09-Dec-2020 22:47:10 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[09-Dec-2020 22:47:10 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[09-Dec-2020 22:47:10 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[09-Dec-2020 22:47:10 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
+[09-Dec-2020 22:47:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[09-Dec-2020 22:47:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
