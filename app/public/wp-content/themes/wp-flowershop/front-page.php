@@ -28,7 +28,7 @@
 
 <section id="about-us" class="relative bg-gray-200">
     <div class="container mx-auto px-4 felx justify-center">
-        <div class="flex justify-between py-20">
+        <div class="flex justify-between py-10">
             <!-- IMAGE -->
               <div class="md:w-1/2 hidden md:block mx-auto">
                 <img
@@ -39,7 +39,7 @@
               </div>
             <!-- TEXT -->
               <div class="md:pr-12 md:pl-8 ml-2 md:w-1/2 md:pt-10 pr-10">
-                <h1 class="text-4xl uppercase font-bold mb-5"><?php the_title(); ?></h1>
+                <h1 class="text-4xl uppercase font-bold mb-5 text-center md:text-left"><?php the_title(); ?></h1>
                 <h3 class="lg:pr-24"><?php the_content(); ?></h3>
                 <ul class="list-none mt-6">
                   <li class="py-2">
@@ -92,6 +92,7 @@
     </div>
 </section>
 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120"><path fill="#E5E7EB" fill-opacity="1" d="M0,96L1440,32L1440,0L0,0Z"></path></svg>
 
 <?php 
     }
@@ -101,7 +102,36 @@
 ?>
 
 
+
+
 <!-- PRODUCTS SECTION -->
+
+<section>
+
+    <!-- HEADING FOR PRODUCTS -->
+    <div class="container mx-auto bg-white">
+      <div>
+        <h1 class="text-4xl uppercase font-bold text-center">Winter Flowers</h1>
+      </div>
+
+      <!-- GRID FOR PRODUCT CARDS -->
+      <div class="grid grid-cols-3 gap-4">
+        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-8">
+          <div style="background-image: url(https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+        class="bg-gray-300 h-64 w-72 rounded-lg shadow-md bg-cover bg-center"></div>
+            <div class="bg-white w-56 -mt-10 shadow-lg rounded-lg overflow-hidden">
+              <div class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Nike Revolt</div>
+                <div class="flex items-center justify-between py-2 px-3 bg-gray-400">
+                  <h1 class="text-gray-800 font-bold ">$129</h1>
+                  <button class=" bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add to cart</button>
+              </div>
+            </div>
+         </div>
+       </div>
+    </div>
+</section>
+
+
 
 
 

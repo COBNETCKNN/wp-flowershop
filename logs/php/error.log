@@ -81,3 +81,44 @@
 [09-Dec-2020 22:47:10 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:535
 [09-Dec-2020 22:47:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
 [09-Dec-2020 22:47:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[12-Jan-2021 19:57:18 UTC] PHP Warning:  chmod(): No such file or directory in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+[12-Jan-2021 19:57:18 UTC] PHP Stack trace:
+[12-Jan-2021 19:57:18 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin-ajax.php:0
+[12-Jan-2021 19:57:18 UTC] PHP   2. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin-ajax.php:184
+[12-Jan-2021 19:57:18 UTC] PHP   3. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[12-Jan-2021 19:57:18 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[12-Jan-2021 19:57:18 UTC] PHP   5. wp_ajax_install_plugin() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[12-Jan-2021 19:57:18 UTC] PHP   6. Plugin_Upgrader->install() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\ajax-actions.php:4346
+[12-Jan-2021 19:57:18 UTC] PHP   7. Plugin_Upgrader->run() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[12-Jan-2021 19:57:18 UTC] PHP   8. Plugin_Upgrader->unpack_package() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-upgrader.php:779
+[12-Jan-2021 19:57:18 UTC] PHP   9. unzip_file() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-upgrader.php:328
+[12-Jan-2021 19:57:18 UTC] PHP  10. _unzip_file_ziparchive() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\file.php:1466
+[12-Jan-2021 19:57:18 UTC] PHP  11. WP_Filesystem_Direct->put_contents() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\file.php:1601
+[12-Jan-2021 19:57:18 UTC] PHP  12. WP_Filesystem_Direct->chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:86
+[12-Jan-2021 19:57:18 UTC] PHP  13. chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
+[12-Jan-2021 20:23:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 133
+[12-Jan-2021 20:36:17 UTC] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php on line 34
+[12-Jan-2021 20:39:23 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 130
+[12-Jan-2021 20:40:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 152
+[12-Jan-2021 20:40:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 152
+[12-Jan-2021 20:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woocommerce_archive_description() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:130
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#3 {main}
+  thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 130
+[12-Jan-2021 20:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woocommerce_archive_description() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:130
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#3 {main}
+  thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 130
+[12-Jan-2021 20:45:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woocommerce_before_main_content() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:130
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#3 {main}
+  thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 130
