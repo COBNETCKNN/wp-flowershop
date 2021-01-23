@@ -122,3 +122,120 @@ Stack trace:
 #2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
 #3 {main}
   thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 130
+[16-Jan-2021 20:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blonginfo() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\header.php:3
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php(676): load_template('C:\\Users\\COBNET...', true, Array)
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php(1): get_header()
+#4 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\COBNET...')
+#5 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#6 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#7 {m in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\header.php on line 3
+[16-Jan-2021 21:03:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function size_url() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\header.php:36
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php(676): load_template('C:\\Users\\COBNET...', true, Array)
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php(1): get_header()
+#4 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\COBNET...')
+#5 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#6 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#7 {m in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\header.php on line 36
+[18-Jan-2021 21:38:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'custom-nav-menu' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[18-Jan-2021 21:38:51 UTC] PHP Stack trace:
+[18-Jan-2021 21:38:51 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-cron.php:0
+[18-Jan-2021 21:38:51 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-cron.php:44
+[18-Jan-2021 21:38:51 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[18-Jan-2021 21:38:51 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[18-Jan-2021 21:38:51 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:557
+[18-Jan-2021 21:38:51 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[18-Jan-2021 21:38:51 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[18-Jan-2021 21:38:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'custom-nav-menu' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[18-Jan-2021 21:38:52 UTC] PHP Stack trace:
+[18-Jan-2021 21:38:52 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[18-Jan-2021 21:38:52 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[18-Jan-2021 21:38:52 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[18-Jan-2021 21:38:52 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[18-Jan-2021 21:38:52 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[18-Jan-2021 21:38:52 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:557
+[18-Jan-2021 21:38:52 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[18-Jan-2021 21:38:52 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[18-Jan-2021 21:38:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'custom-nav-menu' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[18-Jan-2021 21:38:57 UTC] PHP Stack trace:
+[18-Jan-2021 21:38:57 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\index.php:0
+[18-Jan-2021 21:38:57 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\index.php:10
+[18-Jan-2021 21:38:57 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin.php:34
+[18-Jan-2021 21:38:57 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[18-Jan-2021 21:38:57 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[18-Jan-2021 21:38:57 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:557
+[18-Jan-2021 21:38:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[18-Jan-2021 21:38:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[18-Jan-2021 21:39:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'custom-nav-menu' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[18-Jan-2021 21:39:04 UTC] PHP Stack trace:
+[18-Jan-2021 21:39:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[18-Jan-2021 21:39:04 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[18-Jan-2021 21:39:04 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[18-Jan-2021 21:39:04 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[18-Jan-2021 21:39:04 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[18-Jan-2021 21:39:04 UTC] PHP   6. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:557
+[18-Jan-2021 21:39:04 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[18-Jan-2021 21:39:04 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[18-Jan-2021 21:39:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'custom-nav-menu' not found or invalid function name in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php on line 287
+[18-Jan-2021 21:39:04 UTC] PHP Stack trace:
+[18-Jan-2021 21:39:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-login.php:0
+[18-Jan-2021 21:39:04 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-login.php:12
+[18-Jan-2021 21:39:04 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[18-Jan-2021 21:39:04 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[18-Jan-2021 21:39:04 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:557
+[18-Jan-2021 21:39:04 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[18-Jan-2021 21:39:04 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[18-Jan-2021 21:47:27 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\header.php on line 36
+[18-Jan-2021 21:47:27 UTC] PHP Stack trace:
+[18-Jan-2021 21:47:27 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[18-Jan-2021 21:47:27 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[18-Jan-2021 21:47:27 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[18-Jan-2021 21:47:27 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[18-Jan-2021 21:47:27 UTC] PHP   5. get_header() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:1
+[18-Jan-2021 21:47:27 UTC] PHP   6. locate_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\general-template.php:48
+[18-Jan-2021 21:47:27 UTC] PHP   7. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:676
+[19-Jan-2021 16:23:51 UTC] PHP Warning:  chmod(): No such file or directory in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+[19-Jan-2021 16:23:51 UTC] PHP Stack trace:
+[19-Jan-2021 16:23:51 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin-ajax.php:0
+[19-Jan-2021 16:23:51 UTC] PHP   2. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin-ajax.php:184
+[19-Jan-2021 16:23:51 UTC] PHP   3. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[19-Jan-2021 16:23:51 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[19-Jan-2021 16:23:51 UTC] PHP   5. wp_ajax_install_plugin() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[19-Jan-2021 16:23:51 UTC] PHP   6. Plugin_Upgrader->install() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\ajax-actions.php:4346
+[19-Jan-2021 16:23:51 UTC] PHP   7. Plugin_Upgrader->run() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[19-Jan-2021 16:23:51 UTC] PHP   8. Plugin_Upgrader->unpack_package() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-upgrader.php:779
+[19-Jan-2021 16:23:51 UTC] PHP   9. unzip_file() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-upgrader.php:328
+[19-Jan-2021 16:23:51 UTC] PHP  10. _unzip_file_ziparchive() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\file.php:1466
+[19-Jan-2021 16:23:51 UTC] PHP  11. WP_Filesystem_Direct->put_contents() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\file.php:1601
+[19-Jan-2021 16:23:51 UTC] PHP  12. WP_Filesystem_Direct->chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:86
+[19-Jan-2021 16:23:51 UTC] PHP  13. chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
+[19-Jan-2021 16:29:36 UTC] PHP Warning:  chmod(): No such file or directory in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+[19-Jan-2021 16:29:36 UTC] PHP Stack trace:
+[19-Jan-2021 16:29:36 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[19-Jan-2021 16:29:36 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[19-Jan-2021 16:29:36 UTC] PHP   3. wp() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:16
+[19-Jan-2021 16:29:36 UTC] PHP   4. WP->main() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\functions.php:1291
+[19-Jan-2021 16:29:36 UTC] PHP   5. WP->parse_request() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp.php:745
+[19-Jan-2021 16:29:36 UTC] PHP   6. do_action_ref_array() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp.php:388
+[19-Jan-2021 16:29:36 UTC] PHP   7. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:551
+[19-Jan-2021 16:29:36 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[19-Jan-2021 16:29:36 UTC] PHP   9. rest_api_loaded() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[19-Jan-2021 16:29:36 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\rest-api.php:354
+[19-Jan-2021 16:29:36 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\rest-api\class-wp-rest-server.php:440
+[19-Jan-2021 16:29:36 UTC] PHP  12. WP_REST_Server->respond_to_request() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\rest-api\class-wp-rest-server.php:1007
+[19-Jan-2021 16:29:36 UTC] PHP  13. Automattic\WooCommerce\Admin\API\Plugins->install_plugins() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\rest-api\class-wp-rest-server.php:1160
+[19-Jan-2021 16:29:36 UTC] PHP  14. Plugin_Upgrader->install() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php:291
+[19-Jan-2021 16:29:36 UTC] PHP  15. Plugin_Upgrader->run() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[19-Jan-2021 16:29:36 UTC] PHP  16. Plugin_Upgrader->unpack_package() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-upgrader.php:779
+[19-Jan-2021 16:29:36 UTC] PHP  17. unzip_file() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-upgrader.php:328
+[19-Jan-2021 16:29:36 UTC] PHP  18. _unzip_file_ziparchive() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\file.php:1466
+[19-Jan-2021 16:29:36 UTC] PHP  19. WP_Filesystem_Direct->put_contents() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\file.php:1601
+[19-Jan-2021 16:29:36 UTC] PHP  20. WP_Filesystem_Direct->chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:86
+[19-Jan-2021 16:29:36 UTC] PHP  21. chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
+[19-Jan-2021 16:33:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 50
+[22-Jan-2021 18:51:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 137
