@@ -9,7 +9,6 @@
 </head>
 <body <?php body_class(); ?>>
 
-
     <nav class="bg-gray-200">
         <div class="container mx-auto px-6 py-3 bg-grey-400 ">
             <div class="md:flex md:items-center md:justify-between">
@@ -31,7 +30,7 @@
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                 <div class="hidden -mx-4 md:flex md:items-center">
                     <a href="#" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-pink-600">About Us</a>
-                    <a href="<?php echo site_url('/shop')?>" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-pink-600">Products</a>
+                    <a href="%" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-pink-600">Products</a>
                     <a href="#" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-pink-600">Location</a>
                     <a href="<?php echo site_url('/cart');?>"><i class="fas fa-shopping-cart text-pink-400"></i></a>
                     <a href="#"><i class="fas fa-search mx-4 text-pink-400"></i></a>

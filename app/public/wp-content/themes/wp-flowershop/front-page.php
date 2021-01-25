@@ -33,7 +33,7 @@
               <div class="md:w-1/2 hidden md:block mt-16">
                 <img
                 alt="..."
-                class="rounded-lg shadow-lg lg:ml-28"
+                class="rounded-lg shadow-lg m-auto"
                 src="<?php the_post_thumbnail_url('aboutUSSize')?>"
               />
               </div>
@@ -146,6 +146,18 @@
 
 <!-- LOCATION SECTION -->
 
+<?php 
+
+    $addressQuery = new WP_Query(array(
+      'page_id' => 55,
+    ));
+
+    while($addressQuery->have_posts()){
+      $addressQuery->the_post();
+    
+
+?>
+
 <section class="relative bg-gray-200">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
       <path fill="#fff" fill-opacity="1" d="M0,32L1440,96L1440,0L0,0Z"></path>
@@ -153,11 +165,69 @@
 
       <div class="container mx-auto">
       <div>
-        <h1 class="text-4xl uppercase font-bold text-center">COME AND VISIT US</h1>
+        <h1 class="text-4xl uppercase font-bold text-center"><?php the_title(); ?></h1>
       </div>
       </div>
 
+      <?php 
+      
+      // ACF fields
+
+      $latitude     = get_field('latitiude');
+      $longitude    = get_field('longitude');
+      $city         = get_field('city');
+      $address      = get_field('address');
+      $phone_number = get_field('phone_number');
+      $email        = get_field('email');
+      
+      ?>
+
+      <div class="container mx-auto">
+
+      <!-- leaflet map -->
+      <div class="md:flex justify-between">
+        <div class="md:w-1/2 mt-16">
+          <div id="mapid" class="rounded-lg shadow-lg mx-auto mb-5"></div>
+
+          <script type="text/javascript">
+          var map = L.map('mapid').setView(
+                    [<?php echo $latitude; ?>, <?php echo $longitude; ?>], 11);
+
+          L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'FLOWERShop'
+          }).addTo(map);
+
+          L.marker([<?php echo $latitude; ?>, <?php echo $longitude; ?>])
+          .addTo(map).bindPopup(
+            'Our Shop'
+          ).openPopup();
+          </script> 
+          </div>
+
+        <!-- ADDRESS INFO -->
+            <div class="md:w-1/2 ml-20 md:mt-36 text-center md:text-left space-y-10">
+              <h4 class="text-xl">
+                <span class="font-semibold">City:</span> <?php echo $city; ?>
+              </h4>
+              <h4 class="text-xl">
+                <span class="font-semibold">Address:</span> <?php echo $address; ?>
+              </h4>
+              <h4 class="text-xl">
+                <span class="font-semibold">Phone Number:</span> <?php echo $phone_number; ?>
+              </h4>
+              <h4 class="text-xl">
+                <span class="font-semibold">Email:</span> <?php echo $email; ?>
+              </h4>
+            </div>
+        </div>
+        </div>
+
 </section>
+
+<?php }
+
+    wp_reset_postdata();
+?>
 
 
 

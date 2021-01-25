@@ -239,3 +239,68 @@ Stack trace:
 [19-Jan-2021 16:29:36 UTC] PHP  21. chmod() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
 [19-Jan-2021 16:33:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 50
 [22-Jan-2021 18:51:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 137
+[23-Jan-2021 21:29:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:168
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#3 {main}
+  thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 168
+[23-Jan-2021 21:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:168
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#3 {main}
+  thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 168
+[23-Jan-2021 21:32:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php:168
+Stack trace:
+#0 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php(19): require_once('C:\\Users\\COBNET...')
+#2 C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php(17): require('C:\\Users\\COBNET...')
+#3 {main}
+  thrown in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\front-page.php on line 168
+[24-Jan-2021 21:47:38 UTC] PHP Warning:  Use of undefined constant address - assumed 'address' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 58
+[24-Jan-2021 21:47:38 UTC] PHP Warning:  Use of undefined constant address - assumed 'address' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 58
+[24-Jan-2021 21:47:38 UTC] PHP Stack trace:
+[24-Jan-2021 21:47:38 UTC] PHP Stack trace:
+[24-Jan-2021 21:47:38 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[24-Jan-2021 21:47:38 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\post.php:0
+[24-Jan-2021 21:47:38 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[24-Jan-2021 21:47:38 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\post.php:12
+[24-Jan-2021 21:47:38 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:13
+[24-Jan-2021 21:47:38 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin.php:34
+[24-Jan-2021 21:47:38 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[24-Jan-2021 21:47:38 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[24-Jan-2021 21:47:38 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[24-Jan-2021 21:47:38 UTC] PHP   5. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[24-Jan-2021 21:47:38 UTC] PHP   6. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:525
+[24-Jan-2021 21:47:38 UTC] PHP   6. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:525
+[24-Jan-2021 21:47:39 UTC] PHP Warning:  Use of undefined constant address - assumed 'address' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 58
+[24-Jan-2021 21:47:39 UTC] PHP Stack trace:
+[24-Jan-2021 21:47:39 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-cron.php:0
+[24-Jan-2021 21:47:39 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-cron.php:44
+[24-Jan-2021 21:47:39 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[24-Jan-2021 21:47:39 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[24-Jan-2021 21:47:39 UTC] PHP   5. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:525
+[24-Jan-2021 21:47:39 UTC] PHP Warning:  Use of undefined constant address - assumed 'address' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 58
+[24-Jan-2021 21:47:39 UTC] PHP Stack trace:
+[24-Jan-2021 21:47:39 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-cron.php:0
+[24-Jan-2021 21:47:39 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-cron.php:44
+[24-Jan-2021 21:47:39 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[24-Jan-2021 21:47:39 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[24-Jan-2021 21:47:39 UTC] PHP   5. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:525
+[24-Jan-2021 21:47:39 UTC] PHP Warning:  Use of undefined constant address - assumed 'address' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 58
+[24-Jan-2021 21:47:39 UTC] PHP Stack trace:
+[24-Jan-2021 21:47:39 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin-ajax.php:0
+[24-Jan-2021 21:47:39 UTC] PHP   2. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-admin\admin-ajax.php:22
+[24-Jan-2021 21:47:40 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-load.php:37
+[24-Jan-2021 21:47:40 UTC] PHP   4. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-config.php:77
+[24-Jan-2021 21:47:40 UTC] PHP   5. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-settings.php:525
+[24-Jan-2021 21:50:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 72
+[24-Jan-2021 21:50:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 72
+[24-Jan-2021 21:50:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 72
+[24-Jan-2021 21:50:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 71
+[24-Jan-2021 21:50:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 71
+[24-Jan-2021 21:57:38 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 80
+[24-Jan-2021 21:57:38 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 80

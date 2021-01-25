@@ -4,10 +4,13 @@
 function flowershop_files() {
     //enqueing CSS
     wp_enqueue_style('mainCSS', get_template_directory_uri() . '/css/main.css');
+    wp_enqueue_style('leafletCSS', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
 
     //enqueing JS
     wp_enqueue_script('mainJS', get_stylesheet_directory_uri() . 'js/main.js', array(), 1.0, true);
     wp_enqueue_script('fontAwesomeJS', 'https://kit.fontawesome.com/24bc428ad4.js');
+    wp_enqueue_script('leafletJS', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js');
+
 
 }
 add_action('wp_enqueue_scripts', 'flowershop_files');
@@ -49,7 +52,19 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
 
+// REMOVING CONTENT EDITOR FROM PAGES
 
+    //Come and Visit Us Page
+    function hide_editor() {
+    $post_id = $_GET['post'] ? $_GET['post'] : $_POST['post_ID'] ;
+    if( !isset( $post_id ) ) return;
+
+    $homepgname = get_the_title($post_id);
+    if($homepgname == 'Come and Visit Us'){ 
+        remove_post_type_support('page', 'editor');
+        }
+    }
+    add_action( 'admin_head', 'hide_editor' );
 
 
 
