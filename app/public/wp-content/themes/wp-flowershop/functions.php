@@ -7,9 +7,10 @@ function flowershop_files() {
     wp_enqueue_style('leafletCSS', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
 
     //enqueing JS
-    wp_enqueue_script('mainJS', get_stylesheet_directory_uri() . 'js/main.js', array(), 1.0, true);
+    wp_enqueue_script('mainJS', get_stylesheet_directory_uri() . '//js/main.js', array(), 1.0, true);
     wp_enqueue_script('fontAwesomeJS', 'https://kit.fontawesome.com/24bc428ad4.js');
     wp_enqueue_script('leafletJS', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js');
+    wp_enqueue_script("jquery");
 
 
 }

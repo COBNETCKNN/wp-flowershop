@@ -33,8 +33,13 @@
                     <a href="%" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-pink-600">Products</a>
                     <a href="#" class="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-pink-600">Location</a>
                     <a href="<?php echo site_url('/cart');?>"><i class="fas fa-shopping-cart text-pink-400"></i></a>
-                    <a href="#"><i class="fas fa-search mx-4 text-pink-400"></i></a>
+                    <span id="search__button"><i class="fas fa-search mx-4 text-pink-400"></i></span>  
+                    <div class="mt-3 ml-2" id="search__popup" style="display:none;">
+                    <?php get_product_search_form(); ?>
+                    </div>    
                 </div>
+
+
             </div>
         </div>
     </nav>

@@ -304,3 +304,158 @@ Stack trace:
 [24-Jan-2021 21:50:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 71
 [24-Jan-2021 21:57:38 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 80
 [24-Jan-2021 21:57:38 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\functions.php on line 80
+[26-Jan-2021 21:12:04 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:12:04 UTC] PHP Stack trace:
+[26-Jan-2021 21:12:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:12:04 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:12:04 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:12:04 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:12:04 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:37
+[26-Jan-2021 21:12:04 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:12:04 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:12:04 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:12:04 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:12:04 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:12:04 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:12:04 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:12:04 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:12:04 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:12:04 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 21:12:21 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:12:21 UTC] PHP Stack trace:
+[26-Jan-2021 21:12:21 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:12:21 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:12:21 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:12:21 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:12:21 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:39
+[26-Jan-2021 21:12:21 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:12:21 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:12:21 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:12:21 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:12:21 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:12:21 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:12:21 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:12:21 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:12:21 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:12:21 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 21:12:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php on line 22
+[26-Jan-2021 21:13:05 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:13:05 UTC] PHP Stack trace:
+[26-Jan-2021 21:13:05 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:13:05 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:13:05 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:13:05 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:13:05 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:42
+[26-Jan-2021 21:13:05 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:13:05 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:13:05 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:13:05 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:13:05 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:13:05 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:13:05 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:13:05 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:13:05 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:13:05 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 21:13:18 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:13:18 UTC] PHP Stack trace:
+[26-Jan-2021 21:13:18 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:13:18 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:13:18 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:13:18 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:13:18 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:38
+[26-Jan-2021 21:13:18 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:13:18 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:13:18 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:13:18 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:13:18 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:13:18 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:13:18 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:13:18 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:13:18 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:13:18 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 21:13:42 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:13:42 UTC] PHP Stack trace:
+[26-Jan-2021 21:13:42 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:13:42 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:13:42 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:13:42 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:13:42 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:38
+[26-Jan-2021 21:13:42 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:13:42 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:13:42 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:13:42 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:13:42 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:13:42 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:13:42 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:13:42 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:13:42 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:13:42 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 21:20:38 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:20:38 UTC] PHP Stack trace:
+[26-Jan-2021 21:20:38 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:20:38 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:20:38 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:20:38 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:20:38 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:38
+[26-Jan-2021 21:20:38 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:20:38 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:20:38 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:20:38 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:20:38 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:20:38 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:20:38 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:20:38 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:20:38 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:20:38 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 21:25:50 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\product-searchform.php on line 26
+[26-Jan-2021 21:27:23 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 21:27:23 UTC] PHP Stack trace:
+[26-Jan-2021 21:27:23 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 21:27:23 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 21:27:23 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 21:27:23 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 21:27:23 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:38
+[26-Jan-2021 21:27:23 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 21:27:23 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 21:27:23 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 21:27:23 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 21:27:23 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 21:27:23 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 21:27:23 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 21:27:23 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 21:27:23 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 21:27:23 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 22:18:51 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 22:18:52 UTC] PHP Stack trace:
+[26-Jan-2021 22:18:52 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 22:18:52 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 22:18:52 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 22:18:52 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 22:18:52 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:38
+[26-Jan-2021 22:18:52 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 22:18:52 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 22:18:52 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 22:18:52 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 22:18:52 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 22:18:52 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 22:18:52 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 22:18:52 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 22:18:52 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 22:18:52 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
+[26-Jan-2021 22:18:56 UTC] PHP Warning:  Use of undefined constant asdg - assumed 'asdg' (this will throw an Error in a future version of PHP) in C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product-reviews.php on line 26
+[26-Jan-2021 22:18:56 UTC] PHP Stack trace:
+[26-Jan-2021 22:18:56 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:0
+[26-Jan-2021 22:18:56 UTC] PHP   2. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\index.php:17
+[26-Jan-2021 22:18:56 UTC] PHP   3. require_once() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-blog-header.php:19
+[26-Jan-2021 22:18:56 UTC] PHP   4. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template-loader.php:106
+[26-Jan-2021 22:18:56 UTC] PHP   5. wc_get_template_part() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product.php:38
+[26-Jan-2021 22:18:56 UTC] PHP   6. load_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:284
+[26-Jan-2021 22:18:56 UTC] PHP   7. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\template.php:732
+[26-Jan-2021 22:18:56 UTC] PHP   8. do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\content-single-product.php:72
+[26-Jan-2021 22:18:56 UTC] PHP   9. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\plugin.php:484
+[26-Jan-2021 22:18:56 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:311
+[26-Jan-2021 22:18:56 UTC] PHP  11. woocommerce_output_product_data_tabs() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\class-wp-hook.php:287
+[26-Jan-2021 22:18:56 UTC] PHP  12. wc_get_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1540
+[26-Jan-2021 22:18:56 UTC] PHP  13. include() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[26-Jan-2021 22:18:56 UTC] PHP  14. comments_template() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-content\themes\wp-flowershop\woocommerce\single-product\tabs\tabs.php:47
+[26-Jan-2021 22:18:56 UTC] PHP  15. require() C:\Users\COBNETCKNN\Local Sites\flowershop\app\public\wp-includes\comment-template.php:1554
