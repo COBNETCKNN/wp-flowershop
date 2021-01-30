@@ -106,7 +106,7 @@
 
 <!-- PRODUCTS SECTION -->
 
-<section>
+<section id="products">
 
     <!-- HEADING FOR PRODUCTS -->
     <div class="container mx-auto bg-white">
@@ -158,7 +158,7 @@
 
 ?>
 
-<section class="relative bg-gray-200">
+<section id="location" class="relative bg-gray-200">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
       <path fill="#fff" fill-opacity="1" d="M0,32L1440,96L1440,0L0,0Z"></path>
     </svg>
@@ -191,7 +191,7 @@
 
           <script type="text/javascript">
           var map = L.map('mapid').setView(
-                    [<?php echo $latitude; ?>, <?php echo $longitude; ?>], 11);
+                    [<?php echo $latitude; ?>, <?php echo $longitude; ?>], 10);
 
           L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'FLOWERShop'
