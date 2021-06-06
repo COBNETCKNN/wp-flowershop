@@ -27,18 +27,18 @@
 ?>
 
 <section id="about-us" class="relative bg-gray-200">
-    <div class="container mx-auto px-4 felx justify-center">
-        <div class="flex justify-center pt-5 mb:pt-20">
-            <!-- IMAGE -->
-              <div class="md:w-1/2 hidden md:block mt-16">
-                <img
-                alt="..."
-                class="rounded-lg shadow-lg m-auto"
-                src="<?php the_post_thumbnail_url('aboutUSSize')?>"
-              />
-              </div>
+    <div class="container mx-auto">
+        <div class="grid lg:grid-cols-2 gap-4 pt-14 md:pt-20">
+          <!-- IMAGE -->
+          <div class="md:w-1/2 hidden md:block mx-auto">
+                  <img
+                  alt="..."
+                  class="rounded-lg shadow-lg m-auto"
+                  src="<?php the_post_thumbnail_url('aboutUSSize')?>"
+                />
+            </div>
             <!-- TEXT -->
-              <div class="md:pr-12 md:pl-8 ml-2 md:w-1/2 md:pt-16 pr-10">
+              <div class="text_about__column text-center md:text-left my-auto">
                 <h1 class="text-4xl uppercase font-bold mb-5 text-center md:text-left"><?php the_title(); ?></h1>
                 <h3 class="lg:pr-24"><?php the_content(); ?></h3>
                 <ul class="list-none mt-6">
@@ -87,7 +87,7 @@
                   </li>
                 </ul>
               </div>
-            </div>
+         </div>
         </div>
     </div>
 </section>
@@ -110,7 +110,7 @@
 
     <!-- HEADING FOR PRODUCTS -->
     <div class="container mx-auto bg-white">
-      <div class="mb-9">
+      <div class="mb-14 mt-14 md:mt-0">
         <h1 class="text-4xl uppercase font-bold text-center">Winter Flowers</h1>
       </div>
 
@@ -164,63 +164,62 @@
     </svg>
 
       <div class="container mx-auto">
+      
       <div>
-        <h1 class="text-4xl uppercase font-bold text-center"><?php the_title(); ?></h1>
+        <h1 class="mt-14 md:mt-0 text-4xl uppercase font-bold text-center"><?php the_title(); ?></h1>
       </div>
-      </div>
+      <div class="grid lg:grid-cols-2 gap-4 mt-14 md:mt-20 pb-14 md:pb-20">
 
-      <?php 
-      
-      // ACF fields
+        <!-- LEAFLET MAP -->
+        <?php 
+        
+        // ACF fields
+        $latitude     = get_field('latitiude');
+        $longitude    = get_field('longitude');
+        $city         = get_field('city');
+        $address      = get_field('address');
+        $phone_number = get_field('phone_number');
+        $email        = get_field('email');
+        
+        ?>
 
-      $latitude     = get_field('latitiude');
-      $longitude    = get_field('longitude');
-      $city         = get_field('city');
-      $address      = get_field('address');
-      $phone_number = get_field('phone_number');
-      $email        = get_field('email');
-      
-      ?>
+          <div class="leaflet_map mx-auto">
+            <div id="mapid" class="rounded-lg shadow-lg mx-auto mb-5"></div>
 
-      <div class="container mx-auto">
+            <script type="text/javascript">
+            var map = L.map('mapid').setView(
+                      [<?php echo $latitude; ?>, <?php echo $longitude; ?>], 10);
 
-      <!-- leaflet map -->
-      <div class="md:flex justify-between">
-        <div class="md:w-1/2 mt-16">
-          <div id="mapid" class="rounded-lg shadow-lg mx-auto mb-5"></div>
+            L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+              attribution: 'FLOWERShop'
+            }).addTo(map);
 
-          <script type="text/javascript">
-          var map = L.map('mapid').setView(
-                    [<?php echo $latitude; ?>, <?php echo $longitude; ?>], 10);
-
-          L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'FLOWERShop'
-          }).addTo(map);
-
-          L.marker([<?php echo $latitude; ?>, <?php echo $longitude; ?>])
-          .addTo(map).bindPopup(
-            'Our Shop'
-          ).openPopup();
-          </script> 
+            L.marker([<?php echo $latitude; ?>, <?php echo $longitude; ?>])
+            .addTo(map).bindPopup(
+              'Our Shop'
+            ).openPopup();
+            </script> 
           </div>
 
         <!-- ADDRESS INFO -->
-            <div class="md:w-1/2 ml-20 md:mt-36 text-center md:text-left space-y-10">
-              <h4 class="text-xl">
-                <span class="font-semibold">City:</span> <?php echo $city; ?>
-              </h4>
-              <h4 class="text-xl">
-                <span class="font-semibold">Address:</span> <?php echo $address; ?>
-              </h4>
-              <h4 class="text-xl">
-                <span class="font-semibold">Phone Number:</span> <?php echo $phone_number; ?>
-              </h4>
-              <h4 class="text-xl">
-                <span class="font-semibold">Email:</span> <?php echo $email; ?>
-              </h4>
-            </div>
-        </div>
+          <div class="my-auto space-y-10">
+            <h4 class="text-xl">
+              <span class="font-semibold">City:</span> <?php echo $city; ?>
+            </h4>
+            <h4 class="text-xl">
+              <span class="font-semibold">Address:</span> <?php echo $address; ?>
+            </h4>
+            <h4 class="text-xl">
+              <span class="font-semibold">Phone Number:</span> <?php echo $phone_number; ?>
+            </h4>
+            <h4 class="text-xl">
+              <span class="font-semibold">Email:</span> <?php echo $email; ?>
+            </h4>
+          </div>
+      
+       </div>
       </div>
+    
 
 </section>
 

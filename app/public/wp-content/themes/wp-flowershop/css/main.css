@@ -31168,7 +31168,9 @@ video {
           animation: bounce 1s infinite;
 }
 
-html {
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -31239,6 +31241,33 @@ html {
 
   #nav__Items span {
     display: none;
+  }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .text_about__column {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .leaflet_map {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #mapid {
+    width: 330px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
